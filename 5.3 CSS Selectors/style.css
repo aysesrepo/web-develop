@@ -1,0 +1,45 @@
+.red-aral {
+  color: rgb(0, 255, 17);
+  background-color: black;
+}
+body {
+  background-color: red;
+}
+
+.pink {
+  color: pink;
+}
+
+.blau {
+  color: blue;
+}
+
+#familie {
+  color: yellow;
+  font-size: 200%;
+}
+
+p[draggable] {
+  color: green;
+} 
+
+body {
+  background-image: url('./cat.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: darkorange;
+}
