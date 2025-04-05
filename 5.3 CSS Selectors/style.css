@@ -1,49 +1,45 @@
-ol {
-  margin-left: -40px;
-  margin-top: -20px;
-  list-style-position: inside;
+.red-aral {
+  color: rgb(0, 255, 17);
+  background-color: black;
+}
+body {
+  background-color: red;
 }
 
-
-/* Write your CSS below, don't change the rules above. */
-
-/* TODO 1: Set the CSS for all paragraph tags to "color: red;" */
-p {
-  color: red;
+.pink {
+  color: pink;
 }
 
-/* TODO 2: Set the CSS for all elements with a class of "note" to "font-size: 20px;" */
-.note {
-  font-size: 30px;
-}
-
-/* TODO 3: Set the CSS for the element with an id of "id-selector-demo" to "color: green;" */
-#id-selector-demo {}
-li[value="3"] {
-  color: green;
-}
-
-/* Adding background color red to all elements */
-/* {
-  background-color: rgb(212, 25, 181);
-}
-ack
-/* TODO 4: Set the CSS for the li elements that have the "value" attribute set to "4" to have "color: blue;" */
-li[value="4"] {
+.blau {
   color: blue;
 }
 
-/* TODO 5: Set all elements to have "font-family: sans-serif;" */
-
-li[value="5"] {
-  font-family: Arial, Helvetica, sans-serif;
-  color: violet;
+#familie {
+  color: yellow;
+  font-size: 200%;
 }
+
+p[draggable] {
+  color: green;
+} 
 
 body {
-  background-image: url('./natur.jpg');
+  background-image: url('./cat.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: center;
 }
 
+button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: darkorange;
+}
