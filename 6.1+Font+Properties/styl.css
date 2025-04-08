@@ -1,0 +1,28 @@
+/* 6. Root font size (html) */
+html {
+    font-size: 30px;
+  }
+  
+  /* 1. Color */
+  #sky {
+    color: rgb(50, 184, 108);
+  }
+  
+  /* 2. Font size 2x root (2 * 30px = 60px) */
+  .size {
+    font-size: 2rem;
+
+  }
+
+  #weight {
+    font-weight: 900;
+  }
+
+  #font-family {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+  }
+
+  #text {
+text-align: right;
+  }
