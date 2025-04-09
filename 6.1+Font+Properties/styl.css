@@ -1,11 +1,19 @@
 /* 6. Root font size (html) */
 html {
     font-size: 30px;
+    border: 10px solid black;
   }
   
   /* 1. Color */
   #sky {
     color: rgb(50, 184, 108);
+    border: 10px solid rgb(177, 83, 83);
+    margin: 100px;
+    background-color: aliceblue;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
   }
   
   /* 2. Font size 2x root (2 * 30px = 60px) */
@@ -25,4 +33,17 @@ html {
 
   #text {
 text-align: right;
+  }
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: rgb(205, 37, 37);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
   }
