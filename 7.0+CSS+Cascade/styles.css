@@ -1,0 +1,38 @@
+/* Don't change the existing CSS. */
+#outer-box {
+  background-color: purple;
+}
+
+.box {
+  background-color: rgb(217, 255, 0);
+  padding: 10px;
+}
+
+.inner-box {
+  background-color: rgb(210, 49, 49);
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+.white-text {
+  color: white;
+}
+
+.resized-image {
+  width: 100px;
+  height: 100px;
+}
+
+.sh-image {
+  width: 100px;
+  height: 100px;
+}
+
+.xy-image {
+  width: 100px;
+  height: 100px;
+} 
