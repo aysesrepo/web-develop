@@ -4,12 +4,12 @@
 }
 
 .box {
-  background-color: rgb(217, 255, 0);
+  background-color: blue;
   padding: 10px;
 }
 
 .inner-box {
-  background-color: rgb(210, 49, 49);
+  background-color: red;
 }
 
 p {
@@ -22,17 +22,3 @@ p {
   color: white;
 }
 
-.resized-image {
-  width: 100px;
-  height: 100px;
-}
-
-.sh-image {
-  width: 100px;
-  height: 100px;
-}
-
-.xy-image {
-  width: 100px;
-  height: 100px;
-} 
